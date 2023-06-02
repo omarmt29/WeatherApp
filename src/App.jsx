@@ -14,7 +14,7 @@ function App() {
 
       const options = {
         method: 'GET',
-        url: 'http://api.weatherapi.com/v1/current.json',
+        url: 'https://api.weatherapi.com/v1/current.json',
         params: { key: '3b4e2098abb14d94936222407223105', q: search , aqi: 'yes' }
       };
 
@@ -38,7 +38,7 @@ function App() {
 
     const options = {
       method: 'GET',
-      url: 'http://api.weatherapi.com/v1/current.json',
+      url: 'https://api.weatherapi.com/v1/current.json',
       params: { key: '3b4e2098abb14d94936222407223105', q: search , aqi: 'yes' }
     };
 
