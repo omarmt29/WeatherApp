@@ -26,11 +26,11 @@ export const Body = ({info}) => {
                 <div className='flex flex-col gap-3 sm:gap-6'>
                     <div className='flex justify-start xl:justify-start  gap-5 sm:gap-12'>
                         <div>
-                            <p className='text-white text-xl sm:text-2xl'>Wind_mph</p>
+                            <p className='text-white text-xl sm:text-2xl'>Wind mph</p>
                             <p className='text-slate-200 font-thin text-xl sm:text-2xl'>{info.current ? info.current.wind_mph  : ''}</p>
                         </div>
                         <div>
-                            <p className='text-white text-xl sm:text-2xl'>Wind_kph</p>
+                            <p className='text-white text-xl sm:text-2xl'>Wind kph</p>
                             <p className=' text-slate-200 font-thin text-xl sm:text-2xl'>{info.current ? info.current.wind_kph  : ''}</p>
                         </div>
                         <div>
@@ -42,12 +42,12 @@ export const Body = ({info}) => {
 
 
                         <div>
-                            <p className='text-white text-xl sm:text-2xl'>Gust_mph</p>
+                            <p className='text-white text-xl sm:text-2xl'>Gust mph</p>
                             <p className=' text-slate-200 font-thin text-xl sm:text-2xl'>{info.current ? info.current.gust_mph  : ''}</p>
                         </div>
 
                         <div>
-                            <p className='text-white text-xl sm:text-2xl'>Gust_kph</p>
+                            <p className='text-white text-xl sm:text-2xl'>Gust kph</p>
                             <p className=' text-slate-200 font-thin text-xl sm:text-2xl'>{info.current ? info.current.gust_kph  : ''}</p>
                         </div>
                         <div>
